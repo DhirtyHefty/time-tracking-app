@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*PRIMARY COLORS*/
+    --Orange300-work: hsl(15, 100%, 70%);
+    --Blue300-play: hsl(195, 74%, 62%);
+    --Pink400-study: hsl(348, 100%, 68%);
+    --Green400-exercise: hsl(145, 58%, 55%);
+    --Purple700-social: hsl(264, 64%, 52%);
+    --Yellow300-selfcare: hsl(43, 84%, 65%);
+
+    /*NEUTRAL COLORS*/
+    --Navy950: hsl(226, 43%, 10%);
+    --Navy900: hsl(235, 46%, 20%);
+    --Purple500: hsl(235, 45%, 61%);
+    --Navy200: hsl(236, 100%, 87%);
+}
+
+body{
+    background-color:var(--Navy95) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
