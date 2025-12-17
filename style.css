@@ -95,13 +95,37 @@ body{
 }
 
 .activity-card{
-    background-color: red;
     border-radius: 20px;
     margin-bottom: 15px;
     overflow: visible;
     position: relative;
 
 }
+
+.activity-card.work{
+    background: var(--Orange300-work);
+}
+
+.activity-card.play{
+    background: var(--Blue300-play);
+}
+
+.activity-card.study{
+    background: var(--Pink400-study);
+}
+
+.activity-card.exercise{
+    background: var(--Green400-exercise);
+}
+
+.activity-card.social{
+    background: var(--Purple700-social);
+}
+
+.activity-card.self-care{
+    background: var(--Yellow300-selfcare);
+}
+
 
 .card-header{
     height: 50px;
@@ -188,7 +212,8 @@ body{
     padding: 20px;
     position: relative;
     z-index: 1;
-    background: wheat;
+    background: var(--Navy900);
+    margin-bottom: 1rem;
 
 }
 
