@@ -208,7 +208,7 @@ body{
 }
 
 .card-content{
-    border-radius: 35px 35px 0 0;
+    border-radius: 15px 15px 0 0;
     padding: 20px;
     position: relative;
     z-index: 1;
