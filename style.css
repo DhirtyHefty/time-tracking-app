@@ -47,6 +47,7 @@ body{
 
 .header-bg{
     background: var(--Navy900);
+    border-radius: 15px;
 }
 
 .profile-picture{
