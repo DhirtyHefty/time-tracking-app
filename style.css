@@ -200,8 +200,9 @@ body{
 
 @media (min-width: 1024px) {
     body {
+        display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         gap: 30px;
         padding: 50px;
         justify-content: center;
@@ -218,6 +219,8 @@ body{
         align-items: flex-start;
         padding: 2rem;
         gap: 40px;
+        border-bottom-left-radius: 10px ;
+        border-bottom-right-radius: 10px;
     }
 
     .profile-picture {
@@ -248,6 +251,8 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
+
+
     }
 
     .activity-card {
